@@ -33,7 +33,7 @@
     @extend .theme-font;
     font-size: 2.5rem;
     padding-top: $spacer / 2;
-    color: darken($theme-color-main, 50%);
+    color: #690525;
 
     @include media-breakpoint-up(lg) {
       padding-top: $spacer;
@@ -46,7 +46,7 @@
   &-headline {
     font-size: 1.5rem;
     margin: 1rem;
-    color: $theme-color-main-contrast;
+    color: #690525;
 
     @include media-breakpoint-up(lg) {
       font-size: 2rem;
